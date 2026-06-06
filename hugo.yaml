@@ -1,0 +1,50 @@
+baseURL: "https://yourdomain.com/"
+languageCode: "en-us"
+title: "Your Name"
+
+menu:
+  main:
+    - name: "Research"
+      url: "/research/"
+      weight: 1
+    - name: "Teaching"
+      url: "/teaching/"
+      weight: 2
+
+params:
+  # --- Personal info ---
+  authorName: "Your Name"
+  institution: "Your University"
+  description: "Ph.D. student in [Field] at [University]"
+
+  # --- Bio (shown on homepage) ---
+  bio: "I am a Ph.D. student in [Field] at [University]."
+  bioKeywords:
+    - "Field 1"
+    - "Field 2"
+    - "Field 3"
+    - "Field 4"
+
+  # --- Social links (leave empty to hide) ---
+  email: "yourname@university.edu"
+  googleScholarURL: "https://scholar.google.com/citations?user=XXXXXXXX"
+  ssrnURL: "https://papers.ssrn.com/sol3/cf_dev/AbsByAuth.cfm?per_id=XXXXXXX"
+  linkedinURL: "https://www.linkedin.com/in/your-handle/"
+
+  # --- CV ---
+  cvFile: "/files/CV.pdf"
+
+  # --- Google Analytics (leave empty to disable) ---
+  googleAnalyticsID: ""
+
+outputs:
+  home: ["HTML", "RSS"]
+
+sitemap:
+  changefreq: "monthly"
+  priority: 0.5
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
