@@ -4,16 +4,9 @@ title: "Teaching"
 
 <div class="teaching-page">
 
-## Instructor
-
-- **Course Name** (Level) - University Name, Year. Course held by Prof. Name.
-- **Course Name** (Level) - University Name, Year. Course held by Prof. Name.
-
----
-
 ## Teaching Assistant
 
-- **Course Name** - University Name. Course held by Prof. Name (Year-).
-- **Course Name** - University Name. Course held by Prof. Name (Year-).
+- **Market Microstructure** (Graduate) - University of Naples Federico II. Course held by Prof. Marco Pagano (2025–2026).
+- **Firm Valuation and Corporate Finance** (Graduate) - University of Naples Federico II. Course held by Prof. Giovanni Walter Puopolo (2025–2026).
 
 </div>
