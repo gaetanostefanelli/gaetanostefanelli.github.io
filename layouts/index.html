@@ -1,4 +1,4 @@
-{{ define "main" }}
+\{{ define "main" }}
 <div class="home-hero">
   <!-- Photo -->
   <div class="home-photo">
@@ -16,7 +16,7 @@
     <div class="home-bio">
       <p>{{ .Site.Params.bio }}</p>
       <p>My research interests include
-        {{- range $i, $kw := .Site.Params.bioKeywords -}}
+        {{ range $i, $kw := .Site.Params.bioKeywords -}}
           {{- if gt $i 0 }}, {{ end -}}
           <span class="bio-keyword">{{ $kw }}</span>
         {{- end -}}.
