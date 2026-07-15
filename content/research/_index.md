@@ -21,8 +21,8 @@ the same distribution to a firm about to beat and one about to miss - halving
 the assessed probability of a large drop for those about to disappoint - while
 a prediction market, lacking a scale, under-covers its risk bands for volatile
 names. Only together do the two isolate the extreme returns - a likely miss
-with a large implied move averages $-3.6\%$, against $+1.9\%$ for a likely
-beat---and price the tail correctly. Prediction markets and options are
+with a large implied move averages -3.6%, against +1.9% for a likely
+beat - and price the tail correctly. Prediction markets and options are
 therefore complements rather than substitutes: earnings risk measured from
 either one alone is not merely imprecise, but systematically biased.</p>
     </div>
