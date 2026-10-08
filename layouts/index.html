@@ -13,7 +13,7 @@
       <span class="home-name">{{ .Site.Params.authorName }}</span>
     </div>
 
-    <div class="home-bio">
+<div class="home-bio">
       <p>{{ .Site.Params.bio }}</p>
       <p>My research interests include
         {{ $len := len .Site.Params.bioKeywords }}
@@ -24,6 +24,10 @@
           <span class="bio-keyword">{{ $kw }}</span>
         {{- end -}}.
       </p>
+      
+      {{ with .Site.Params.visiting }}
+      <p>{{ . }}</p>
+      {{ end }}
     </div>
     
     <div class="home-social">
