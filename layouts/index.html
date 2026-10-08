@@ -25,10 +25,9 @@
         {{- end -}}.
       </p>
       
-      {{ with .Site.Params.visiting }}
-      <p>{{ . }}</p>
+{{ with .Site.Params.visiting }}
+      <p style="margin-top: 25px;">{{ . }}</p>
       {{ end }}
-    </div>
     
     <div class="home-social">
       {{ with .Site.Params.email }}
