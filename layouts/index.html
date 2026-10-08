@@ -16,13 +16,16 @@
     <div class="home-bio">
       <p>{{ .Site.Params.bio }}</p>
       <p>My research interests include
-        {{ range $i, $kw := .Site.Params.bioKeywords -}}
-          {{- if gt $i 0 }}, {{ end -}}
+        {{ $len := len .Site.Params.bioKeywords }}
+        {{- range $i, $kw := .Site.Params.bioKeywords -}}
+          {{- if gt $i 0 -}}
+            {{- if eq (add $i 1) $len }} and {{ else }}, {{ end -}}
+          {{- end -}}
           <span class="bio-keyword">{{ $kw }}</span>
         {{- end -}}.
       </p>
     </div>
-
+    
     <div class="home-social">
       {{ with .Site.Params.email }}
       <a href="mailto:{{ . }}" aria-label="Email" class="social-link">
