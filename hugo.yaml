@@ -16,11 +16,13 @@ params:
   institution: "University of Naples Federico II"
   description: "Ph.D. student in Economics at University of Naples Federico II"
 
-  bio: "Hi! I am a Ph.D. student in Economics at University of Naples Federico II"
+  bio: "Hi! I am a second-year Ph.D. student in Economics at University of Naples Federico II"
   bioKeywords:
     - "Asset Pricing"
     - "Behavioral Finance"
     - "Prediction Markets"
+
+  visiting: "Next semester, I will be visiting London Business School."
 
   email: "gaetano.stefanelli@unina.it"
   googleScholarURL: ""
