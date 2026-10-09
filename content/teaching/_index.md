@@ -4,7 +4,7 @@ title: "Teaching"
 
 <div class="teaching-page">
 
-#### Teaching Assistant
+### Teaching Assistant
 
 - **Asset Pricing** (Graduate) - Course held by Lorenzo Pandolfi and Giovanni W. Puopolo (2027)
 - **Market Microstructure** (Graduate) - Course held by Marco Pagano (2026)
