@@ -4,10 +4,10 @@ title: "Teaching"
 
 <div class="teaching-page">
 
-## Teaching Assistant
+# Teaching Assistant
 
-- **Asset Pricing** (Graduate) - Course held by Prof. Lorenzo Pandolfi and Prof. Giovanni W. Puopolo (Spring 2027).
-- **Market Microstructure** (Graduate) - Course held by Prof. Marco Pagano (Spring 2026).
-- **Firm Valuation and Corporate Finance** (Graduate) - Course held by Prof. Marco Pagano and Prof. Giovanni W. Puopolo (Fall 2025, Fall 2026).
+- **Asset Pricing** (Graduate) - Course held by Lorenzo Pandolfi and Giovanni W. Puopolo (2027)
+- **Market Microstructure** (Graduate) - Course held by Marco Pagano (2026)
+- **Firm Valuation and Corporate Finance** (Graduate) - Course held by Marco Pagano and Giovanni W. Puopolo (2025, 2026)
 
 </div>
